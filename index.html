@@ -144,10 +144,10 @@
   // Function to calculate and display total word count from selected sections
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
-    const IntroductionCount = displayWordCount("Introduction");
-    const FundamentalsCount = displayWordCount("The Fundamentals of Computing and Quantum Computing");
-    const HowToApplyCount = displayWordCount("How can QC be applied to AI");
-    const ConclusionCount = displayWordCount("Conclusion");
+    const IntroductionCount = displayWordCount("Intro_text");
+    const FundamentalsCount = displayWordCount("Fundamentals_text");
+    const HowToApplyCount = displayWordCount("Applied_text");
+    const ConclusionCount = displayWordCount("Conclusion_text");
 
             const totalWordCount = IntroductionCount + FundamentalsCount + HowToApplyCount + ConclusionCount;
     // Display the total word count
@@ -191,6 +191,7 @@
 
       <h3 id="Introduction">Introduction</h3>
       <p class="ex1">
+        <div id="Intro_text">
         The intersection of Quantum Computing (QC) and Artificial Intelligence (AI) combines a field
         that is showing more and more prominence in every part of our lives - AI - and a field that, 
         while still under development, promises to push the boundaries of traditional computing by 
@@ -206,10 +207,12 @@
         complex AI computations such as pattern recognition much more efficient or its ability for true 
         random number generation, which causes a direct improvement to the performance in areas like 
         genetic programming [Yang and Jiao (2003)].
+        </div>
       </p>
 
       <h3 id="The Fundamentals of Computing and Quantum Computing">The Fundamentals of Computing and Quantum Computing</h3>
       <p class="ex1">
+        <div id="Fundamentals_text">
         In traditional computing, the term ‘bit’ is used to describe the binary states of 1 or 0. 
         This is the very basis of how modern computers hold and process information, as the combination 
         of these bits can be used to store and manipulate a range of data such as characters or numbers. 
@@ -235,6 +238,7 @@
         this is done using the multiple cores of a standard computer, however, here it can use the unique properties of the qubit 
         instead, which means that a larger quantity of parallel computation can occur simultaneously. This is also put to use in 
         Grover’s algorithm, the importance of which is explained later in this paper.
+        </div>
       </p>
 
       <div class="figure-container">
@@ -244,6 +248,7 @@
 
       <h3 id="How can QC be applied to AI">How can QC be applied to AI</h3>
       <p class="ex1">
+        <div id="Applied_text">
         While still mostly theoretical, QC has the potential to revolutionize AI in various ways. One example of this is through 
         the use of Grover’s Algorithm, which can search an unordered set of items in O(√N) time, which is very fast compared to a 
         standard unordered search which has a time complexity (how long it will take in a worst-case scenario) of O(N) where N = 2^n 
@@ -256,6 +261,7 @@
         unsupervised reinforcement learning. Interestingly, the development of QC also shifts the scope of what is considered an ‘AI problem’; 
         for instance, artificial chess playing [Sgarbas, (2007)], as the use of superposition and entanglement allow for these complex problems to 
         be simple to complete using specific quantum algorithms.
+        </div>
       </p>
 
       <div class="figure-container">
@@ -265,12 +271,14 @@
 
       <h3 id="Conclusion">Conclusion</h3>
       <p class="ex1">
+        <div id = "Conclusion_text">
         In conclusion, the intersection of Quantum Computing and Artificial Intelligence has a vast range of transformative potential when it 
         comes to solving problems and processing data that was previously inefficient or even impossible through traditional computing. Through 
         the unique properties of qubits, namely superposition and quantum entanglement, quantum algorithms allow for parallel computation and true 
         random generation which significantly improve AI tasks, like pattern recognition and decision making. As development continues in both fields, 
         the combination of the two will redefine the capabilities of what we thought possible through computing technology.
-      </p>
+        </div>
+        </p>
 
       <h3 id="References">References</h3>
       <p class="ex1">
