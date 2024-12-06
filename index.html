@@ -34,7 +34,9 @@
       <tr></tr><th><h3>Table of contents</h3></th></tr>
       <td><a href="#Abstract">Abstract</a></td>
       <td><a href="#Introduction">Introduction</a></td>
-      <td><a href="#Analysis and discussion">Analysis and discussion</a></td>
+      <td><a href="#The Fundamentals of Computing and Quantum Computing">The Fundamentals of Computing and Quantum Computing</a></td>
+      <td><a href="#How can QC be applied to AI">How can QC be applied to AI</a></td>
+      <td><a href="#Conclusion">Conclusion</a></td>
       <td><a href="#References">References</a></td>
     </table>
   
@@ -60,12 +62,60 @@
   <h3 id="Introduction">Introduction</h3>
     <p class="ex1">
       <pre>
-        Intro
+        The intersection of Quantum Computing (QC) and Artificial Intelligence (AI) combines a field
+        that is showing more and more prominence in every part of our lives - AI - and a field that, 
+        while still under development, promises to push the boundaries of traditional computing by 
+        introducing new ways to process and store information, revolutionising the way we process data, 
+        solve problems and make decisions in ways that are unprecedented compared to the capabilities of 
+        modern computers. This has already been discussed in many different papers that focus on more 
+        specific scenarios (e.g. quantum game theory [Miakisz et al. (2006)]), however this paper will 
+        focus on a more general application of the two. By leveraging the behaviour of subatomic particles
+        like photons and electrons, QC allows us to utilise unique phenomena like superposition and 
+        entanglement, the fundamental applications of which will be explored and explained within this 
+        paper. Additionally, the paper will explore the fundamental principles of QC and its significance 
+        when applied to AI, such as through quantum algorithms like Grover’s [Grover (1997)] which make 
+        complex AI computations such as pattern recognition much more efficient or its ability for true 
+        random number generation, which causes a direct improvement to the performance in areas like 
+        genetic programming [Rylander et al. (2001)].
       </pre>
-  <h3 id="Analysis and discussion">Analysis and discussion</h3>
+  <h3 id="The Fundamentals of Computing and Quantum Computing">The Fundamentals of Computing and Quantum Computing</h3>
     <p class="ex1">
       <pre>
-        blah blah abstract blah
+        In traditional computing, the term ‘bit’ is used to describe the binary states of 1 or 0. 
+        This is the very basis of how modern computers hold and process information, as the combination 
+        of these bits can be used to store and manipulate a range of data such as characters or numbers. 
+        However, QC utilises quantum bits, also known as ‘qubits’ (coined by [Schumacher (1995)]), 
+        which can be physically represented by multiple things, for example an electron in an atom or the 
+        polarisation of a photon. These qubits exist in a state of ‘superposition’. This means that they have 
+        a probability or ‘relative weight’ of being either 0 or 1 and stay in this state until they are ‘measured’
+        - until this value is observed, where they collapse into either 1 or 0. This is shown by figure 1 
+        where you can imagine an arrow spinning randomly between the 2 areas to indicate a state of superposition.
+
+        A simpler (though slightly less precise) way of thinking about it is to imagine a coin that has been 
+        flipped into the air - until it lands (or is ‘measured’) it has the probability of being either heads 
+        or tails. As well as this, the relative weight (or probability) of a state being reached can be manipulated 
+        using quantum interference (the way quantum waves can combine to either amplify or cancel each other out), 
+        which plays a key part in most quantum algorithms, such as in Grover’s Algorithm.
+
+        Another key feature of a qubit is its ability to become ‘entangled’ with one or more other qubits on a quantum 
+        level. This means that the final outcomes when measured are mathematically related, for example, a pair of entangled 
+        qubits might be entangled in a way that when they are measured they become the opposites of each other 
+        (1 and 0 or 0 and 1). This is extremely useful as it allows the state of the other qubit to be determined wherever 
+        the other is measured, a use of which is the ability to securely transfer information over any distance instantly. 
+        Another use of quantum entanglement is the ability for parallel computation [Gruska (1999)]. In traditional computing,
+        this is done using the multiple cores of a standard computer, however, here it can use the unique properties of the qubit 
+        instead, which means that a larger quantity of parallel computation can occur simultaneously. This is also put to use in 
+        Grover’s algorithm, the importance of which is explained later in this paper.
+      </pre>
+    <h3 id="How can QC be applied to AI">How can QC be applied to AI</h3>
+    <p class="ex1">
+      <pre>
+        ref
+      </pre>
+    <h3 id="Conclusion">Conclusion</h3>
+    <p class="ex1">
+      <pre>
+        ref
       </pre>
   <h3 id="References">References</h3>
     <p class="ex1">
