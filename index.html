@@ -135,10 +135,12 @@
 
         function displayTotalWordCount() {
 
-            const IntroductionCount = displayWordCount("Introduction_Text");
-            const AnalysisCount = displayWordCount("Analysis_and_Discussion_Text");
+            const IntroductionCount = displayWordCount("Introduction");
+            const FundamentalsCount = displayWordCount("The Fundamentals of Computing and Quantum Computing");
+            const HowToApplyCount = displayWordCount("How can QC be applied to AI");
+            const ConclusionCount = displayWordCount("Conclusion");
 
-            const totalWordCount = IntroductionCount + AnalysisCount;
+            const totalWordCount = IntroductionCount + FundamentalsCount + HowToApplyCount + ConclusionCount;
 
             document.getElementById("totalWordCount").innerText = Total word count: ${totalWordCount};
         }
