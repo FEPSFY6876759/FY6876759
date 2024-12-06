@@ -24,8 +24,13 @@
       tr:nth-child(even) {
         background-color: #dddddd;
       }
+      td a {
+        text-decoration: none;
+        color: inherit;
+      }
       td a:hover {
         text-decoration: underline;
+        color: blue;
       }
       td {
         width: 16%;
@@ -45,6 +50,22 @@
         max-width: 80%;
         height: auto;
         display: block;
+      }
+    </style>
+    <style>
+      .figure-container {
+          text-align: center;
+          margin: 20px 0;
+      }
+      .figure-container img {
+          max-width: 80%;
+          height: auto;
+      }
+      .figure-caption {
+          font-family: calibri, sans-serif;
+          font-size: 16px;
+          margin-top: 10px;
+          color: #333;
       }
     </style>
   </head>
@@ -124,6 +145,11 @@
         Grover’s algorithm, the importance of which is explained later in this paper.
       </p>
 
+      <div class="figure-container">
+        <img src="figure1.jpg" alt="Figure 1">
+        <div class="figure-caption"><strong>Figure 1:</strong>A bit and a qubit</div>
+      </div>
+
       <h3 id="How can QC be applied to AI">How can QC be applied to AI</h3>
       <p class="ex1">
         While still mostly theoretical, QC has the potential to revolutionize AI in various ways. One example of this is through 
@@ -139,6 +165,11 @@
         for instance, artificial chess playing [Sgarbas, (2007)], as the use of superposition and entanglement allow for these complex problems to 
         be simple to complete using specific quantum algorithms.
       </p>
+
+      <div class="figure-container">
+        <img src="figure2.jpg" alt="Figure 2">
+        <div class="figure-caption"><strong>Figure 2:</strong>The time complexities of a standard search on an unordered list and a search using Grover's algorithm</div>
+      </div>
 
       <h3 id="Conclusion">Conclusion</h3>
       <p class="ex1">
